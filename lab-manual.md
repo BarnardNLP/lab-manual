@@ -215,6 +215,8 @@ can sponsor an account. Our suggested workflow is to do non-intensive
 computations and analyses on your personal desktop or laptop computer, and
 to offload more intensive analyses to one of these systems.
 
+> **Action item**: If you are using abox{1,2} or Habanero, go 
+> through this [Art of the Command Line tutorial](https://github.com/jlevy/the-art-of-command-line)
 
 
 ### Papers
