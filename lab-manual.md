@@ -1,6 +1,6 @@
-# Text Processing Lab Manual
+# Barnard NLP Lab Manual
 
-This is an introduction to carrying out research in the Text Processing
+This is an introduction to carrying out research in the Barnard NLP
 Lab. It describes our general approach to research and your rights and
 responsibilities as a researcher, whether that's for a summer, a semester,
 or multiple years.
@@ -50,7 +50,7 @@ Your responsibilities as a lab member:
 
 If you feel that your rights as a lab member have been -- or are in danger
 of being -- violated, it is your duty to report those violations to an
-appropriate person, e.g., Jonathan, the chair of the Computer Science
+appropriate person, e.g., Adam, the chair of the Computer Science
 Department, the Dean of Studies, the Title IX coordinator, etc. Similarly,
 if you notice others endangering others' rights or neglecting their
 responsibilities, it is your duty to report those violations.
@@ -159,30 +159,39 @@ These are our research principles:
 
 ### Communication
 
-The [Text Processing Lab Slack](https://textproclab.slack.com) server is
+The [BarnardNLP Slack](https://barnardnlp.slack.com) server is
 where almost all not-in-person lab communications take place. It provides
 an interface for asking questions, storing notes, and sharing ideas.
 
 > **Action item**: Create a Slack account and say hello!
 
 Once you've created this account, you can ask any questions through
-Slack -- use the [#general](https://textproclab.slack.com/messages/general)
+Slack -- use the [#general](https://barnardnlp.slack.com/messages/general)
 channel or the channel specific your project.
 
 In addition, we will schedule in-person or videoconference meetings as
 appropriate for a project, typically once a week.
 
+#### Daily Stand Ups
 
-### Code
+When working together during sumemrs, we will meet (on Zoom or in person) for daily stand ups at 10:15am (EST). We will go around the room and each briefly describe:
 
-We use the [Text Processing Lab GitHub](https://github.com/textproclab)
+- what we worked on the day before
+- what we plan on working on today
+- any blockers that are or might be preventing you from working
+
+Daily stand ups allow us to keep each other in the loop of our progess. Updating the group about any blockers you are facing will make it easier for us to help each other.
+
+### Code 
+
+We use the [BarnardNLP GitHub](https://github.com/BarnardNLP)
 organization for managing code (as well as some data sets or other
 resources). Each project will have one or more GitHub repositories
 associated with it.
 
 > **Action item**: Create a GitHub account.
 
-> **Action item**: Email your GitHub username to Jonathan and he'll add
+> **Action item**: Email your GitHub username to Adam and he'll add
 > you to the organization.
 
 > **Action item**: If you're not comfortable with Git, please work
@@ -196,10 +205,12 @@ prefer to use computers running macOS for workstations and Linux for
 servers.
 
 Computationally intensive research happens on:
-- [Hopper](http://pages.vassar.edu/accas/high-performance-computing-with-hopper), Vassar's high-performance computing cluster
-- Lambda-Quad, a system with multiple GPUs for running neural network models
 
-If you think your research would benefit from running on Hopper, Jonathan
+- [Habanero](https://confluence.columbia.edu/confluence/display/rcs/Habanero+HPC+Cluster+User+Documentation), Columbia high-performance computing cluster. Here are some [good](https://confluence.columbia.edu/confluence/display/rcs/Habanero+-+Getting+Started) [guides](https://rabernat.github.io/research_computing/introduction-to-the-habanero-hpc-cluster.html) to go through 
+- abox1, a system with 2 GPUs (GeForce RTX 3090) and 64 CPUs for running neural network models.
+- abox2, a system with 2 GPUs (GeForce RTX 3080) and 128 CPUs for running neural network models.
+
+If you think your research would benefit from running on Habanero, Adam
 can sponsor an account. Our suggested workflow is to do non-intensive
 computations and analyses on your personal desktop or laptop computer, and
 to offload more intensive analyses to one of these systems.
@@ -209,6 +220,7 @@ to offload more intensive analyses to one of these systems.
 ### Papers
 
 Planning a research paper should start with a discussion of:
+
 - What the paper is going to be about
 - What the key results are
 - What the overall "story" is
@@ -221,6 +233,7 @@ In considering whether a contribution to a project merits authorship on a
 paper, we follow the NIH's [General Guidelines for Authorship](NIH).
 In general, you likely meet the requirements for authorship if you
 contributed in any of the following ways:
+
 - Drafted the manuscript (this typically warrants first authorship)
 - Came up with the idea or made other substantial intellectual
   contributions that meaningfully shaped the trajectory of the project
@@ -231,12 +244,13 @@ contributed in any of the following ways:
 
 You are unlikely to meet the requirements for authorship if your
 contributions were limited to the following:
+
 - Running basic data analyses
 - Getting trained by one of the other project members on a
   project-related task
 - Training another project member on a project-related task
 - Sharing already-published tools or resources
-- Editing or commenting on a draft of the manuscript
+- Small editing or commenting on a draft of the manuscript
 
 If you have made a non-trivial contribution to a project but did not meet
 the requirements for authorship, you will instead receive a citation in
@@ -251,11 +265,7 @@ browser. Progress should be shared regularly via Slack.
 
 ### Posters
 
-The preferred methods for creating posters are to use Adobe InDesign or
-[LaTeX BeamerPoster](https://github.com/deselaers/latex-beamerposter).
-Jonathan can provide examples of previous posters, including InDesign files
-you can use as templates. Ensure that any images are either vector graphics
-or are at sufficiently high resolutions (at least 300 dpi).
+The current preferred methods for creating posters is Powerpoint. Adam makes pretty ugly posters but has a simple template. If anyone wants to take the lead on coming up with a preferred method for making posters, it is all yours.
 
 
 ## Making mistakes
@@ -269,6 +279,7 @@ learn and grow, and identifying or noticing mistakes should be celebrated
 as part of our growth as scientists.
 
 Some scenarios you might encounter are:
+
 - You've shared a figure, statistic, or other result, and you've realized
   there's a bug in the code that generated it.
 - You tried to collect some data and the experiment crashed or yielded
@@ -280,6 +291,7 @@ Some scenarios you might encounter are:
 - You released a software package, and you've found a bug or error.
 
 Appropriate actions for each of the above scenarios:
+
 1. Double check, to the best of your ability, that the mistake is
    real. This may involve checking over code, rebooting a computer and
    restarting an experiment, re-reading reference text, etc.
@@ -300,21 +312,14 @@ resources should you encounter a situation in which you want to use them.
   find the answer in this lab manual!
 
 - If you feel your question is not adequately answered in the lab manual,
-  post your question on Slack or talk to Jonathan.
+  post your question on Slack or talk to Adam.
 
-- For questions on papers or posters, talk to Jonathan.
+- For questions on papers or posters, talk to Adam.
 
-- For issues with equipment owned by the CS department or with the Hopper
-  cluster, you should contact Matt Tarantino, mtarantino@vassar.edu.
-
-- For issues with Vassar IT, open a [service
-  ticket](http://servicedesk.vassar.edu).
-
-- For questions about forms, receipts, etc., contact Jennie Colabella,
-  jcolabella@vassar.edu.
+- For questions about forms, receipts, etc., contact Jared Stickley, jstickle@barnard.edu.
 
 
 ## Acknowledgments
 
-This manual is derived primarily from Jeremy Manning's Contextual Dynamics
+This manual is forked from Jonathan Gordon's Text Processing Lab's [manual](https://github.com/textproclab/lab-manual) at Vasser which was derived primarily from Jeremy Manning's Contextual Dynamics
 [lab manual](https://github.com/ContextLab/lab-manual).
