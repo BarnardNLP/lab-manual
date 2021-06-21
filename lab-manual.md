@@ -189,7 +189,7 @@ organization for managing code (as well as some data sets or other
 resources). Each project will have one or more GitHub repositories
 associated with it.
 
-> **Action item**: Create a GitHub account.
+> **Action item**: Create a GitHub account, sign up [here](https://github.com/join).
 
 > **Action item**: Email your GitHub username to Adam and he'll add
 > you to the organization.
