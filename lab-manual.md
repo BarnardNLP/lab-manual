@@ -198,6 +198,11 @@ associated with it.
 > through these [GitHub tutorials](https://try.github.io).
 
 
+Each project will have its own repository on github and its own Conda environment.
+Conda environments are a way to specify the requirements for each project. 
+
+> **Action item**: Read this [brief overview](https://medium.com/@stefanblos/how-to-get-started-with-anaconda-4863547b9f90) of conda.
+
 ### Computation
 
 All lab members need a computer to get their work done. Generally, we
@@ -217,6 +222,7 @@ to offload more intensive analyses to one of these systems.
 
 > **Action item**: If you are using abox{1,2} or Habanero, go 
 > through this [Art of the Command Line tutorial](https://github.com/jlevy/the-art-of-command-line)
+
 
 
 ### Papers
