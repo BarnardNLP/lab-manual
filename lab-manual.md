@@ -1,6 +1,6 @@
-# Barnard NLP Lab Manual
+# Bryn Mawr NLP Lab Manual
 
-This is an introduction to carrying out research in the Barnard NLP
+This is an introduction to carrying out research in the Bryn Mawr NLP
 Lab. It describes our general approach to research and your rights and
 responsibilities as a researcher, whether that's for a summer, a semester,
 or multiple years.
@@ -50,8 +50,8 @@ Your responsibilities as a lab member:
 
 If you feel that your rights as a lab member have been -- or are in danger
 of being -- violated, it is your duty to report those violations to an
-appropriate person, e.g., Adam, the chair of the Computer Science
-Department, the Dean of Studies, the Title IX coordinator, etc. Similarly,
+appropriate person, e.g., Adam, Chris Murphy (the chair of the Computer Science
+Department), the Dean of Studies, the Title IX coordinator, etc. Similarly,
 if you notice others endangering others' rights or neglecting their
 responsibilities, it is your duty to report those violations.
 
@@ -135,7 +135,9 @@ These are our research principles:
   collaborator is your past self, but they don't respond to emails or
   Slack messages! Help "future you" by producing methodical, clear work
   with adequate documentation (which might just be the Git commits,
-  allowing you compare different versions of a particular file.)
+  allowing you compare different versions of a particular file). 
+  You don't want to be cursing out "past you" for making things confusing
+  and unclear to "current you".
 
 - Build projects around motivated individuals. Give them the environment
   and support they need, and trust them to get the job done. Each day,
@@ -159,22 +161,36 @@ These are our research principles:
 
 ### Communication
 
-The [BarnardNLP Slack](https://barnardnlp.slack.com) server is
-where almost all not-in-person lab communications take place. It provides
-an interface for asking questions, storing notes, and sharing ideas.
+The BrynMawrNLP Slack is where almost all not-in-person lab communications 
+take place. It provides an interface for asking questions, storing notes, 
+and sharing ideas. We will also use GitHub issues to make weekly agendas
+and goals.
 
 > **Action item**: Create a Slack account and say hello!
 
 Once you've created this account, you can ask any questions through
-Slack -- use the [#general](https://barnardnlp.slack.com/messages/general)
+Slack -- use the [#general](https://brynmawrnlp.slack.com/messages/general)
 channel or the channel specific your project.
 
 In addition, we will schedule in-person or videoconference meetings as
 appropriate for a project, typically once a week.
 
+#### Weekly Snippets
+The weekly snippet is a short update that every lab member will 
+share with the rest of the lab overview email. The snippet consists of three
+brief lists: 
+
+- Last week accomplishments
+- This week's goals
+- Blockers preventing you from accomplishing your goals. 
+
+At 8:30am each Monday, an email thread will be sent out to the lab members.
+By noon, every member should reply with their weekly snippet.
+
 #### Daily Stand Ups
 
-When working together during sumemrs, we will meet (on Zoom or in person) for daily stand ups at 10:15am (EST). We will go around the room and each briefly describe:
+When working together during summers, we will meet (on Zoom or in person) for daily stand ups at 10:15am (EST). 
+We will go around the room and each briefly describe:
 
 - what we worked on the day before
 - what we plan on working on today
@@ -184,7 +200,7 @@ Daily stand ups allow us to keep each other in the loop of our progess. Updating
 
 ### Code 
 
-We use the [BarnardNLP GitHub](https://github.com/BarnardNLP)
+We use the [BrynMawrNLP GitHub](https://github.com/BrynMawrNLP)
 organization for managing code (as well as some data sets or other
 resources). Each project will have one or more GitHub repositories
 associated with it.
@@ -211,16 +227,16 @@ servers.
 
 Computationally intensive research happens on:
 
-- [Habanero](https://confluence.columbia.edu/confluence/display/rcs/Habanero+HPC+Cluster+User+Documentation), Columbia high-performance computing cluster. Here are some [good](https://confluence.columbia.edu/confluence/display/rcs/Habanero+-+Getting+Started) [guides](https://rabernat.github.io/research_computing/introduction-to-the-habanero-hpc-cluster.html) to go through 
+~- [Habanero](https://confluence.columbia.edu/confluence/display/rcs/Habanero+HPC+Cluster+User+Documentation), Columbia high-performance computing cluster. Here are some [good](https://confluence.columbia.edu/confluence/display/rcs/Habanero+-+Getting+Started) [guides](https://rabernat.github.io/research_computing/introduction-to-the-habanero-hpc-cluster.html) to go through~ 
 - abox1, a system with 2 GPUs (GeForce RTX 3090) and 64 CPUs for running neural network models.
 - abox2, a system with 2 GPUs (GeForce RTX 3080) and 128 CPUs for running neural network models.
+- @azpoliak TODO: add information for Powerwulf once its up and running.
 
-If you think your research would benefit from running on Habanero, Adam
-can sponsor an account. Our suggested workflow is to do non-intensive
+Our suggested workflow is to do non-intensive
 computations and analyses on your personal desktop or laptop computer, and
 to offload more intensive analyses to one of these systems.
 
-> **Action item**: If you are using abox{1,2} or Habanero, go 
+> **Action item**: If you are using abox{1,2} or Powerwulf, go 
 > through this [Art of the Command Line tutorial](https://github.com/jlevy/the-art-of-command-line)
 
 
